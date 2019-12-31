@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+
+            </div>
+            <div id="content">
+                <div id="controller">
+                    <div id="resetCanvas">
+                        <button type="button" id="resetCanvasBtn">Reset Canvas</button>
+                    </div>
+                    <div id="#squaresPerSide">
+                        <p>Change # of Squares on Canvas: </p>
+                        <input type="text" id="squaresPerSideInput" name="#squaresPerSide" value="64">
+                        <button type="button" id="squaresPerSideBtn">Submit</button>
+                    </div>
+                    <div id="colorOptions">
+                        <p>Color Picker:</p>
+                        <select id="colorOptionsSelect">
+                            <option value="red">Red</option>
+                            <option value="random">Random</option>
+                            <option value="sketch">Sketch</option>
+                        </select> 
+                    </div>
+                </div>
+                <div id="sketchContainer">
+                    <div id="sketch">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
